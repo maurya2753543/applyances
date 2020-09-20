@@ -1,0 +1,157 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .line-height{
+      width: 100%;
+      background-color: blue;
+  }
+  .example-card {
+    width: 300px;
+    height: 560px;
+    margin-right: 100px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 39px;
+    box-shadow: 2 2 2;
+    object-fit: contain;
+    border: solid 1px #707070;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1) !important;
+    
+  }
+  .input{
+      width: 150px;
+      font-size: 5px;
+      background-color: #efefef;;
+  }
+  .three-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    padding-right: 10px;
+   
+}
+.search-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    margin-left: 50px;
+    margin-top: 10px;    
+    color: 
+    aquamarine
+    
+    ;
+    
+   
+}
+.filter-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    color: 
+    aquamarine
+    
+    ;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+   
+   
+}
+
+.empDetails {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    font-size: 10px;
+    
+    margin-left: 12px;
+}
+.key-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;    
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: blue;
+   
+   
+}
+.keys-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;    
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: red;
+    
+   
+   
+}
+.img{
+   margin-bottom: 5px;
+    cursor: pointer;
+}
+hr.class-1 { 
+    border-top: 2px solid silver; 
+    width: 50px;
+} 
+.box:hover{
+    transform: scale(1) !important;
+    background-color: blue;
+}
+.back{
+    background-color: #efefef;
+}
+.font{
+    font-size: 14px;
+}
+.box{
+    height: 100px;
+}

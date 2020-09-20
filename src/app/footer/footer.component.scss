@@ -1,0 +1,300 @@
+
+hr.idea{
+    border-top: 1px solid #e4e9ef; 
+    width: 100%;
+    letter-spacing: 1px
+
+}
+.filled{
+    position: relative;
+    margin-left: 350px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.filled-class{
+    display: flex;   
+    background-color: #e4e9ef;
+    cursor: pointer;
+}
+.number{
+    font-size: 50px;    
+    background-color: #e4e9ef;
+    color: #2d7fed;   
+    margin-left: 305px; 
+    margin-top: 30px;
+    cursor: pointer;
+}
+.number1{
+    font-size: 50px;    
+    background-color: #e4e9ef;
+    color: #2d7fed; 
+    margin-left: 310px;    
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+.titleg{
+    margin-left: 260px;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.titleg1{
+    margin-left: 300px;
+    font-size: 20px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.gnum{
+    display: flex;
+     
+  
+}
+.global1{
+    background-color: #e4e9ef;
+    cursor: pointer;
+
+}
+.footer{
+    margin-left: 350px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+  
+}
+.avb{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.bold{
+    color: #2d7fed;
+    cursor: pointer;
+  
+}
+.btn{
+    background-color: #2d7fed;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn1{
+    
+    color: white;
+    border-radius: 30px;
+    justify-content: end;
+    left: 1100px;
+    bottom: 90px;
+    background-color: #192e54;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn2{
+   
+    color: white;
+    border-radius: 30px;
+    left: 1100px;
+    background-color: #192e54;
+    bottom: 90px;
+    cursor: pointer;
+}
+
+hr.showdown{ 
+    border-top: 2px solid  #e4e9ef; 
+    width: 100%;
+    letter-spacing: 1px
+   
+} 
+.bold1{
+    text-align: center;
+    font-size: 20px;
+    color: #2d7fed;
+    cursor: pointer;
+}
+.bld{
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+   
+}
+.paraline{
+    display: flex;
+    text-align: center;     
+    width: 100%;   
+    background-color: #2d7fed;    
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.pw{
+    margin-left: 120px;
+    line-height: 30px;
+    margin: 50px;
+}
+.view_all{
+    bottom: 300px;
+}
+.pre,.nex{
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease; 
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color:white;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,.3);
+}
+.nex {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 0px;
+  } 
+  .pre{
+    margin-left:-15px;
+  }
+   .fad {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .newscontent{
+      width: 100%;
+     
+  }
+  .image{
+      width: 7px;
+      margin-left: 20px;
+      margin-top: 10px;
+      
+     
+  }
+  .image1{
+    width: 1px;
+    margin-left: 200px;
+    margin-top: 10px;
+    
+   
+}
+  .main_image{
+      display: flex;
+      
+  }
+  .adb{
+      
+      margin-right: 60px;
+  }
+  .vrr{
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .image3{
+      width: 1px;      
+      margin: 2px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    width: 1px;
+    cursor: pointer;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .main-container{
+      display: flex;
+      width: 100%;
+      margin-left: 100px;
+    
+  }
+  .example-card:hover{
+      margin: 20px;   
+      transform: scale(1.1);  
+      overflow: hidden;   
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1) !important;  
+      transition: color 1s ease-in-out;
+        opacity: 0.8;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        
+  }
+  .footer_div{
+      background-color: #ebebeb;
+      display: flex;
+      margin-top: 50px;
+  }
+ .social{
+     background-color: #ebebeb;
+   
+     display: flex;
+ }
+ .appla{
+     margin-left: 200px;
+     cursor: pointer;
+ }
+ .apylogo{
+     display: flex;
+     background-color: #343434 ;
+     width: 100%;
+     height: 100px;
+     cursor: pointer;
+  
+     
+ }
+ .ipl{
+     width: 1px;    
+     margin-left: 300px;
+     margin-top: 50px;
+     cursor: pointer;
+    }
+
+ .ipl1{
+     width: 80px;
+     margin-top: 50px;
+     margin-left: 50px;
+     cursor: pointer;
+ }
+ .hello{
+    margin-left: 30px;
+     color: #ffffff;
+     margin-top: 40px;
+     cursor: pointer;
+ }
+ .ap20{
+    
+     color: #ffffff;
+     margin-left: 30px;
+     margin-top: 45px;
+     cursor: pointer;
+ }
+ .row{
+     margin-left: 30px;
+ }

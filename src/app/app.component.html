@@ -1,0 +1,168 @@
+<div class="main-container">
+ 
+  <agm-map 
+  [latitude]="lat"
+  [longitude]="lng"
+  [zoom]="zoom"
+  [disableDefaultUI]="false"
+  
+  style="width: 150%;"
+  >
+
+  <agm-marker 
+      *ngFor="let m of markers; let i = index"     
+      [latitude]="m.lat"
+      [longitude]="m.lng"     
+      [markerDraggable]="m.draggable"
+      (dragEnd)="markerDragEnd(m, $event)"
+      [iconUrl]="icon1" >      
+     
+    <agm-info-window>
+      <strong>James D. Business Analyst</strong>     
+
+    </agm-info-window>    
+  </agm-marker>   
+  <agm-marker 
+  *ngFor="let m of m; let i = index"     
+  [latitude]="m.lat"
+  [longitude]="m.lng"     
+  [markerDraggable]="m.draggable"
+  (dragEnd)="markerDragEnd(m, $event)"
+  [iconUrl]="icon2" >      
+ 
+<agm-info-window>
+  <strong>Andrea Ui Designer</strong>     
+
+</agm-info-window>    
+</agm-marker> 
+<agm-marker 
+*ngFor="let m of l; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"     
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"
+[iconUrl]="icon3" >      
+
+<agm-info-window>
+<strong>Woody Peet . Content Writer</strong>     
+
+</agm-info-window>    
+</agm-marker> 
+<agm-marker 
+*ngFor="let m of o; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"     
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"
+[iconUrl]="icon4" >      
+
+<agm-info-window>
+<strong>Jennifer J Analyst</strong>     
+
+</agm-info-window>    
+</agm-marker> 
+<agm-marker 
+*ngFor="let m of p; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"     
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"
+[iconUrl]="icon5" >      
+
+<agm-info-window>
+<strong>James C. Product Manager</strong>     
+
+</agm-info-window>    
+</agm-marker> 
+<agm-marker 
+*ngFor="let m of n; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"     
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"
+[iconUrl]="icon6" >      
+
+<agm-info-window>
+<strong>Allen E. Data Engineer</strong>     
+
+</agm-info-window>    
+</agm-marker> 
+<agm-marker 
+*ngFor="let m of markers; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"     
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"
+[iconUrl]="icon7" >      
+
+<agm-info-window>
+<strong>Bob donnel. Business Archtect</strong>     
+
+</agm-info-window>    
+</agm-marker> 
+<agm-marker 
+*ngFor="let m of markers; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"     
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"
+[iconUrl]="icon8" >      
+
+<agm-info-window>
+<strong>King R - Angular Developer</strong>     
+
+</agm-info-window>    
+</agm-marker>   
+<agm-marker 
+*ngFor="let m of a; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"   
+
+[iconUrl]="icon9" >      
+
+<agm-info-window>
+<strong>The Biggest 
+  Maid jobs Groups
+  in Mumbai & Delhi - NCR</strong>     
+
+</agm-info-window>    
+
+<agm-marker 
+*ngFor="let m of biggest; let i = index"     
+[latitude]="m.lat"
+[longitude]="m.lng"     
+[markerDraggable]="m.draggable"
+(dragEnd)="markerDragEnd(m, $event)"
+[iconUrl]="iconb" >  
+
+<agm-info-window>
+  <strong>Helli D. Java Developer</strong>     
+  
+  </agm-info-window>       
+   
+</agm-marker>   
+
+</agm-marker> 
+  <agm-circle [latitude]="lat + 0.3" [longitude]="lng" 
+      [radius]="5000"
+      [fillColor]="'red'"
+      [circleDraggable]="true"
+      [editable]="true"
+      >
+  </agm-circle> 
+  
+
+</agm-map>
+
+<div class="home">
+ 
+  <app-home></app-home>
+</div>
+</div>
+<div>
+  <app-sign></app-sign>
+</div>
+<div>
+  <app-footer></app-footer>
+</div>
+

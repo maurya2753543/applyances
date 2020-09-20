@@ -1,0 +1,88 @@
+<mat-toolbar class="mat-tool">
+    <mat-toolbar-row>
+     <h1 class="tilte">If You are an Employer , Post Your job</h1>
+        <button mat-flat-button class="post"><span class="material-icons">
+            arrow_circle_up
+            </span>
+            Post Your Project Now</button>
+        <button mat-flat-button class="singup"><span class="material-icons">
+            account_circle
+            </span>
+            Login/Signup</button>
+    </mat-toolbar-row>
+   
+  
+   
+  </mat-toolbar>
+  <div class="main-container">
+    <div class="paragraph">
+        <p class="til1">
+            Hire the best <b class="bold">IT &
+                Marketing Companies</b>
+            jobs for you
+           
+        </p>
+        <hr class="paradiv" /> 
+        <p class="til2">            
+            Your Trusted sources to find the
+            best mobile app development compamies
+            and digital marketing agencies with verified reviews listed through
+            a unique methodology
+        </p>
+      
+    
+    </div>
+      
+    <div class="newsdiv">
+       
+      <div class="newscontent">
+      <div class="news-slider">
+          <div class="row mySlides fad" *ngFor="let newsarray of newschunk">
+              <div class=" col-xl-2 col-lg-2 col-md-2 col-sm-2 newsitem" *ngFor="let item of newsarray">
+                  <mat-card class="newscard">
+                    <img mat-card-image [src]="item.img" class="newimage">
+                    <img mat-card-image [src]="item.icon" class="iconimage">
+                    <div class="cname">
+                        {{item.name}}
+                    </div>
+                    <mat-card-content>
+                        <div class="newsdetails">
+                          {{item.description}}
+                         
+                        </div>
+                        <div class="location">
+                            {{item.location}}
+                        </div>
+                        <button  mat-flat-button class="webbtn" >{{item.website}}</button>
+                      </mat-card-content>
+                    
+                  </mat-card>
+                </div>
+          </div>
+          <a class="pre" (click)="plusSlides(-1)">&#10094;</a>
+            <a class="nex" (click)="plusSlides(1)">&#10095;</a>
+            <hr class="idea" />
+      </div>
+     
+</div>
+ 
+
+    
+    
+
+ </div>
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 

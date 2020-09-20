@@ -1,0 +1,517 @@
+<div class="global1">
+    <div class="filled-class">
+       <div class="filled">
+           <img src="assets/images/filled.png" alt="filled">
+         </div>
+         <div class="footer">
+           <img src="assets/images/idea.png" alt="idea">              
+         </div>        
+
+    </div>  
+    <div class="total">
+        <h1 class="number">
+            100000 +     
+         </h1>
+       <h1 class="number1">
+           400000 +       
+       </h1>
+    </div>
+    
+  <div class="gnum">
+  <p class="titleg">Professional Freelancers Regsitered <br>
+      in Last 30 Days</p>
+ 
+  <p class="titleg1" >Mobile Apps Job Posted <br>
+      in Last 30 Days</p>
+  </div>  
+  <div class="avb">
+    <p >Job available in <b class="bold">60+ categories </b>including </p>     
+  </div>
+  <div class="button_list">
+       <ul class="list">
+     <button mat-flat-button class="btn" *ngFor="let l of list | slice : startPage:paginationLimit">
+       {{l.name}}
+     </button>
+    </ul>
+    <button mat-flat-button class="btn1" *ngIf ="paginationLimit < list.length" (click)="showMoreItems()">
+    + 50 More
+    </button>
+    <button mat-flat-button class="btn2" *ngIf ="paginationLimit > 3" (click)="showLessItems()">
+     Show Less
+    </button>
+   </div>
+       
+     </div>
+     <hr class="showdown" /> 
+     <div class="bld">
+      <b class="bold1">Top Development Companies Directories</b>
+     </div>
+     
+     <div class="paraline" >
+     
+      
+       <p class="pw">
+        Mobile App Developers<br>
+        SEO Companies<br>
+        Web Developers<br>
+        Android App Developers<br>
+        iPhone App Developers<br>
+        Software Development Companies<br>
+       </p>
+       <p  class="pw">
+        Web Design Companies<br>
+        Digital Marketing Companies<br>
+        React Native App Developers<br>
+        Artificial Intelligence Companies<br>
+        Blockchain Companies<br>
+        Machine Learning Companies<br>
+       <p  class="pw">
+        IT Consulting Firms<br>
+        Cloud Computing Companies<br>
+        IoT Companies<br>
+        Graphic Designers<br>
+        Logo Design Companies<br>
+        Design Agencies<br>
+       </p>
+       <p  class="pw">
+        Advertising Agencies<br>
+        PPC Companies<br>
+        Social Media Marketing Companies<br>
+        Digital Agencies<br>
+        Creative Agencies<br>
+        Branding Companies<br>
+        <a class="view_all">View all categories >></a>
+       </p>
+      
+       
+     </div>
+     <hr class="showdown" /> 
+     <div class="bld">
+             <b class="bold1">Latest IT & Marketing Companies reviews</b>
+      
+     </div>
+    <div class="main-container">
+     
+     
+     <mat-card class="example-card">
+      <div class="main_image">
+       <div  class="image">
+         <img mat-card-image src="assets/images/ad.png" alt="icon">       
+       
+       </div>
+    
+       <div class="image1">
+         <img mat-card-image src="assets/images/correct.png" alt="icon">
+        
+       </div>
+       <a class="vrr">Verified review</a>
+     
+      
+      </div>
+      <b class="adb">Adobe</b>
+      <hr class="showdown" />
+      
+       <div class="row">
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         
+       </div>     
+     
+   
+     
+      <b>Best Web designing Company!</b>
+   
+     <p>
+       Lorem ipsum dolor sit amet, <br>
+       consectetur adipiscing elit, <br>
+       sed do eiusmod tempor incididunt ut<br>
+        labore et dolore magna aliqua. <br>
+       Ut enim ad minim veniam, quis <br>
+       Reviewed 3h ago <b>by David Sandgen</b>
+     </p>
+    
+    
+    
+   </mat-card>
+
+   <mat-card class="example-card">
+    <div class="main_image">
+     <div  class="image">
+       <img mat-card-image src="assets/images/ad.png" alt="icon">       
+     
+     </div>
+  
+     <div class="image1">
+       <img mat-card-image src="assets/images/correct.png" alt="icon">
+      
+     </div>
+     <a class="vrr">Verified review</a>
+   
+    
+    </div>
+    <b class="adb">Adobe</b>
+    <hr class="showdown" />
+    
+     <div class="row">
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       
+     </div>     
+   
+ 
+   
+    <b>Best Web designing Company!</b>
+ 
+   <p>
+     Lorem ipsum dolor sit amet, <br>
+     consectetur adipiscing elit, <br>
+     sed do eiusmod tempor incididunt ut<br>
+      labore et dolore magna aliqua. <br>
+     Ut enim ad minim veniam, quis <br>
+     Reviewed 1h ago <b>by Rando hut</b>
+   </p>
+  
+  
+  
+ </mat-card>
+
+ <mat-card class="example-card">
+  <div class="main_image">
+   <div  class="image">
+     <img mat-card-image src="assets/images/ad.png" alt="icon">       
+   
+   </div>
+
+   <div class="image1">
+     <img mat-card-image src="assets/images/correct.png" alt="icon">
+    
+   </div>
+   <a class="vrr">Verified review</a>
+ 
+  
+  </div>
+  <b class="adb">Adobe</b>
+  <hr class="showdown" />
+  
+   <div class="row">
+     <div class="column">
+       <img mat-card-image src="assets/images/star.png" alt="icon">
+     </div>
+     <div class="column">
+       <img mat-card-image src="assets/images/star.png" alt="icon">
+     </div>
+     <div class="column">
+       <img mat-card-image src="assets/images/star.png" alt="icon">
+     </div>
+     <div class="column">
+       <img mat-card-image src="assets/images/star.png" alt="icon">
+     </div>
+     <div class="column">
+       <img mat-card-image src="assets/images/star.png" alt="icon">
+     </div>
+     
+   </div>     
+ 
+
+ 
+  <b>Best Web designing Company!</b>
+
+ <p>
+   Lorem ipsum dolor sit amet, <br>
+   consectetur adipiscing elit, <br>
+   sed do eiusmod tempor incididunt ut<br>
+    labore et dolore magna aliqua. <br>
+   Ut enim ad minim veniam, quis <br>
+   Reviewed 9h ago <b>by Robort brown</b>
+ </p>
+
+
+
+</mat-card>
+
+
+
+    </div>
+    <div class="main-container">
+     
+     
+      <mat-card class="example-card">
+        <div class="main_image">
+         <div  class="image">
+           <img mat-card-image src="assets/images/ad.png" alt="icon">       
+         
+         </div>
+      
+         <div class="image1">
+           <img mat-card-image src="assets/images/correct.png" alt="icon">
+          
+         </div>
+         <a class="vrr">Verified review</a>
+       
+        
+        </div>
+        <b class="adb">Adobe</b>
+        <hr class="showdown" />
+        
+         <div class="row">
+           <div class="column">
+             <img mat-card-image src="assets/images/star.png" alt="icon">
+           </div>
+           <div class="column">
+             <img mat-card-image src="assets/images/star.png" alt="icon">
+           </div>
+           <div class="column">
+             <img mat-card-image src="assets/images/star.png" alt="icon">
+           </div>
+           <div class="column">
+             <img mat-card-image src="assets/images/star.png" alt="icon">
+           </div>
+           <div class="column">
+             <img mat-card-image src="assets/images/star.png" alt="icon">
+           </div>
+           
+         </div>     
+       
+     
+       
+        <b>Best Web designing Company!</b>
+     
+       <p>
+         Lorem ipsum dolor sit amet, <br>
+         consectetur adipiscing elit, <br>
+         sed do eiusmod tempor incididunt ut<br>
+          labore et dolore magna aliqua. <br>
+         Ut enim ad minim veniam, quis <br>
+         Reviewed 2h ago <b>by David Sandgen</b>
+       </p>
+      
+      
+      
+     </mat-card>
+  
+     <mat-card class="example-card">
+      <div class="main_image">
+       <div  class="image">
+         <img mat-card-image src="assets/images/ad.png" alt="icon">       
+       
+       </div>
+    
+       <div class="image1">
+         <img mat-card-image src="assets/images/correct.png" alt="icon">
+        
+       </div>
+       <a class="vrr">Verified review</a>
+     
+      
+      </div>
+      <b class="adb">Adobe</b>
+      <hr class="showdown" />
+      
+       <div class="row">
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         <div class="column">
+           <img mat-card-image src="assets/images/star.png" alt="icon">
+         </div>
+         
+       </div>     
+     
+   
+     
+      <b>Best Web designing Company!</b>
+   
+     <p>
+       Lorem ipsum dolor sit amet, <br>
+       consectetur adipiscing elit, <br>
+       sed do eiusmod tempor incididunt ut<br>
+        labore et dolore magna aliqua. <br>
+       Ut enim ad minim veniam, quis <br>
+       Reviewed 5h ago <b>by Rando hut</b>
+     </p>
+    
+    
+    
+   </mat-card>
+  
+   <mat-card class="example-card">
+    <div class="main_image">
+     <div  class="image">
+       <img mat-card-image src="assets/images/ad.png" alt="icon">       
+     
+     </div>
+  
+     <div class="image1">
+       <img mat-card-image src="assets/images/correct.png" alt="icon">
+      
+     </div>
+     <a class="vrr">Verified review</a>
+   
+    
+    </div>
+    <b class="adb">Adobe</b>
+    <hr class="showdown" />
+    
+     <div class="row">
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       <div class="column">
+         <img mat-card-image src="assets/images/star.png" alt="icon">
+       </div>
+       
+     </div>     
+   
+  
+   
+    <b>Best Web designing Company!</b>
+  
+   <p>
+     Lorem ipsum dolor sit amet, <br>
+     consectetur adipiscing elit, <br>
+     sed do eiusmod tempor incididunt ut<br>
+      labore et dolore magna aliqua. <br>
+     Ut enim ad minim veniam, quis <br>
+     Reviewed 8h ago <b>by Robort brown</b>
+   </p>
+  
+  
+  
+  </mat-card>
+ 
+ 
+     </div>
+     <hr class="showdown" /> 
+    
+   <div class="footer_div">
+     <p  class="pw">
+       <b>About Appylance</b>
+
+  company<br>
+methodology<br>
+testimonials<br>
+F.A.Q.<br>
+Sponsorship<br>
+advertise<br>
+Press room<br>
+Feature Apps<br>
+Sponsors<br>
+Contact us<br>
+Terms & Conditions<br>
+Hire the best IT & Marketing companies<br>
+     </p>
+<p  class="pw">
+  <b>Top Location</b>
+  App Developers in India<br>
+App Developers in USA<br>
+App Developers in  UK<br>
+App Developers in Canada<br>
+App Developers in Germany<br>
+App Developers in Australia<br>
+App Developers in Philippines<br>
+App Developers in New York<br>
+</p>
+<p  class="pw">
+  <b>Latest Projects</b>
+  $EMPR Retail Application<br>
+Fix Taxi<br>
+TRAY<br>
+HR manager & Employee Mobile Application<br>
+<b>Latest Blog Projects</b>
+Top Mobile App Development Companies in Russia - May 2020<br>
+5 Reasons to Implement Artificial Intelligence in your CRM<br>
+Good and Bad of platform that have industrialized meal production and delivery<br>
+The best way to grow your YouTube channel<br>
+</p>
+
+   </div>
+   <div class="social">
+    <div class="row">
+      <div class="column">
+        <img mat-card-image src="assets/images/go.png" alt="icon">
+      </div>
+      <div class="column">
+        <img mat-card-image src="assets/images/youtube.png" alt="icon">
+      </div>
+      <div class="column">
+        <img mat-card-image src="assets/images/tw.png" alt="icon">
+      </div>
+      <div class="column">
+        <img mat-card-image src="assets/images/insta.png" alt="icon">
+      </div>
+         
+    </div>    
+    <p  class="appla">
+      Applance is the community for IT and marketing companies where they can meet people or companies<br>
+       looking to hire the best firms for their projects.
+    </p> 
+   </div>
+   <div class="apylogo">
+    <div class="ipl1" >
+      <img mat-card-image src="assets/images/apy.png" alt="icon">
+  
+     </div>
+     <div  class="ipl">
+      <img mat-card-image src="assets/images/mail.png" alt="icon">
+     
+     </div>
+     <p  class="hello">hello@applance.com</p>
+   
+     <div  class="ipl">
+      <img mat-card-image src="assets/images/lic.png" alt="icon">
+     
+     </div>  
+     <p class="ap20">2020 Applance.com</p>
+    
+    
+   
+
+   </div>
+  
+     
+   
+   
